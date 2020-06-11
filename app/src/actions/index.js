@@ -23,12 +23,5 @@ export const ranAdvice = () => dispatch => {
 
     }).catch();
 
-    // return {
-
-    //     type: RAN_ADVICE,
-    //     payload: payload
-
-    // }
-
 }
 

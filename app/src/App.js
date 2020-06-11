@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Fox Heaven</h1>
+      <h1>Advice from the ether</h1>
 
       <AdviceDisplay />
 

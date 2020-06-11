@@ -26,9 +26,11 @@ let AdviceDisplay = props => {
 
         <div>
 
-            <h3>Advice</h3>
-            <p>{props.advice}</p>
-            <button onClick={newAdvice}>New advice</button>
+            <div className='advice'>
+                <p>{props.advice}</p>
+            </div>
+            
+            <button onClick={newAdvice}>Another</button>
 
         </div>
 
